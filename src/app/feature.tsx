@@ -1,7 +1,6 @@
 "use client";
 
 import React from "react";
-import { Typography } from "@material-tailwind/react";
 
 import {
   CursorArrowRaysIcon,
@@ -10,7 +9,7 @@ import {
   LockClosedIcon,
 } from "@heroicons/react/24/solid";
 
-import FeatureCard from "../components/feature-card";
+import FeatureCard from "@/components/feature-card";
 
 const FEATURES = [
   {
@@ -43,18 +42,17 @@ export function Features() {
   return (
     <section className="py-28 px-4">
       <div className="container mx-auto mb-20 text-center">
-        <Typography color="blue-gray" className="mb-2 font-bold uppercase">
+        <p className="mb-2 font-bold uppercase text-blue-gray-900">
           Your Habit Quest
-        </Typography>
-        <Typography variant="h1" color="blue-gray" className="mb-4">
+        </p>
+        <h1 className="mb-4 text-4xl font-bold text-blue-gray-900">
           Why SnapQuest Works
-        </Typography>
-        <Typography
-          variant="lead"
-          className="mx-auto w-full px-4 !text-gray-500 lg:w-11/12 lg:px-8 "
-        >
-          Built on proven principles of behavioural science, SnapQuest combines social accountability, financial stakes, and gamification to turn intentions into consistent actions — and make habit building stick.
-        </Typography>
+        </h1>
+        <p className="mx-auto w-full px-4 text-lg leading-relaxed text-gray-500 lg:w-11/12 lg:px-8">
+          Built on proven principles of behavioural science, SnapQuest combines
+          social accountability, financial stakes, and gamification to turn
+          intentions into consistent actions and make habit building stick.
+        </p>
       </div>
       <div className="container mx-auto grid max-w-6xl grid-cols-1 gap-4 gap-y-12 md:grid-cols-2">
         {FEATURES.map((props, idx) => (

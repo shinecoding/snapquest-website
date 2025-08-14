@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import { Button, Typography } from "@material-tailwind/react";
 
 
 function Hero() {
@@ -10,23 +9,21 @@ function Hero() {
       <header className="grid !min-h-[49rem] bg-gray-900 px-8">
         <div className="container mx-auto mt-32 grid h-full w-full grid-cols-1 place-items-center lg:mt-14 lg:grid-cols-2">
           <div className="col-span-1">
-            <Typography variant="h1" color="white" className="mb-4">
+            <h1 className="mb-4 text-5xl font-extrabold leading-tight text-white md:text-6xl">
               Form Habits <br /> That Pay Off
-            </Typography>
-            <Typography
-              variant="lead"
-              className="mb-7 !text-white md:pr-16 xl:pr-28"
-            >
+            </h1>
+
+            <p className="mb-7 pr-0 text-white/90 md:pr-16 xl:pr-28">
               To change habits, you need more than good intentions.
-            </Typography>
-            <Typography className="mb-4" color="white" variant="h6">
+            </p>
+            <h6 className="mb-4 text-sm font-semibold uppercase tracking-wide text-white/80">
               Get the app
-            </Typography>
+            </h6>
             <div className="flex flex-col gap-2 md:mb-2 md:w-10/12 md:flex-row">
-              <Button
-                size="lg"
-                color="white"
-                className="flex justify-center items-center gap-3"
+              <a
+                href="#"
+                aria-label="Download on the App Store"
+                className="inline-flex items-center justify-center gap-3 rounded-md bg-white px-6 py-3 font-medium text-gray-900 shadow transition hover:shadow-md focus:outline-none focus:ring-2 focus:ring-white/60"
               >
                 <Image
                   width={256}
@@ -36,11 +33,11 @@ function Hero() {
                   className="w-6 h-6"
                 />
                 App Store
-              </Button>
-              <Button
-                size="lg"
-                color="white"
-                className="flex justify-center items-center gap-3"
+              </a>
+              <a
+                href="#"
+                aria-label="Get it on Google Play"
+                className="inline-flex items-center justify-center gap-3 rounded-md bg-white px-6 py-3 font-medium text-gray-900 shadow transition hover:shadow-md focus:outline-none focus:ring-2 focus:ring-white/60"
               >
                 <Image
                   width={256}
@@ -50,7 +47,7 @@ function Hero() {
                   className="w-6 h-6"
                 />
                 Google Play
-              </Button>
+              </a>
             </div>
           </div>
           <Image
@@ -64,15 +61,14 @@ function Hero() {
       </header>
       <div className="mx-8 lg:mx-16 -mt-24 rounded-xl bg-white p-5 md:p-14 shadow-md">
         <div>
-          <Typography variant="h3" color="blue-gray" className="mb-3">
+          <h3 className="mb-3 text-3xl font-bold text-blue-gray-900">
             Forever Procrastinating?
-          </Typography>
-          <Typography
-            variant="paragraph"
-            className="font-normal !text-gray-500 lg:w-5/12"
-          >
-            Stop relying on motivation alone. SnapQuest uses behavioural science, financial stakes, and peer pressure to help you build habits that last.
-          </Typography>
+          </h3>
+          <p className="max-w-none font-normal text-gray-500 lg:w-5/12">
+            Stop relying on motivation alone. SnapQuest uses behavioural
+            science, financial stakes, and peer pressure to help you build
+            habits that last.
+          </p>
         </div>
       </div>
     </div>

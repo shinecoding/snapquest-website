@@ -19,9 +19,13 @@ export function VideoIntro() {
           alt=""
         />
         <div className="absolute top-2/4 left-2/4 -translate-x-2/4 -translate-y-2/4 z-10">
-          <IconButton color="white" className="rounded-full" size="lg">
+          <button
+            type="button"
+            aria-label="Play video"
+            className="flex h-14 w-14 items-center justify-center rounded-full bg-white text-gray-900 shadow-lg transition hover:scale-105 focus:outline-none focus:ring-2 focus:ring-white/60"
+          >
             <PlayIcon className="h-6 w-6" />
-          </IconButton>
+          </button>
         </div>
       </div>
     </div>
