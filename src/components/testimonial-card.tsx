@@ -25,7 +25,7 @@ export function TestimonialCard({
       />
       <h3 className="text-lg font-semibold text-gray-800">{client}</h3>
       <p className="mb-3 text-sm font-medium text-gray-600">{title}</p>
-      <p className="mb-5 text-gray-500 italic">"{feedback}"</p>
+      <p className="mb-5 text-gray-500 italic">&ldquo;{feedback}&ldquo;</p>
     </div>
   );
 }
