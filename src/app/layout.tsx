@@ -13,6 +13,19 @@ export const metadata: Metadata = {
   title: "SnapQuest – Hack Your Brain. Level Up Your Life.",
   description:
     "SnapQuest turns your daily habits into real-life quests with smart contract-secured stakes, AI-powered nudges, and AR check-ins. Built for ambitious people who want to make lasting change.",
+  openGraph: {
+    title: "SnapQuest – Hack Your Brain. Level Up Your Life.",
+    description:
+      "SnapQuest turns your daily habits into real-life quests with smart contract-secured stakes, AI-powered nudges, and AR check-ins. Built for ambitious people who want to make lasting change.",
+    images: [{ url: "/og-image.png", width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "SnapQuest – Hack Your Brain. Level Up Your Life.",
+    description:
+      "SnapQuest turns your daily habits into real-life quests with smart contract-secured stakes, AI-powered nudges, and AR check-ins. Built for ambitious people who want to make lasting change.",
+    images: ["/og-image.png"],
+  },
 };
 
 export default function RootLayout({

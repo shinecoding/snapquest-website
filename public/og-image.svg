@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#111827"/>
+
+  <!-- Decorative circles -->
+  <circle cx="1050" cy="120" r="200" fill="#1f2937" opacity="0.6"/>
+  <circle cx="1100" cy="500" r="120" fill="#1f2937" opacity="0.4"/>
+  <circle cx="80" cy="520" r="150" fill="#1f2937" opacity="0.3"/>
+
+  <!-- Accent line -->
+  <rect x="80" y="240" width="60" height="5" rx="2" fill="#6366f1"/>
+
+  <!-- SQ Badge -->
+  <rect x="80" y="80" width="80" height="80" rx="16" fill="#6366f1"/>
+  <text x="120" y="142" text-anchor="middle" font-family="'Arial Black', sans-serif" font-weight="900" font-size="42" fill="white">SQ</text>
+
+  <!-- SnapQuest wordmark -->
+  <text x="180" y="138" font-family="'Arial Black', sans-serif" font-weight="900" font-size="48" fill="white">SnapQuest</text>
+
+  <!-- Tagline label -->
+  <text x="80" y="290" font-family="Arial, sans-serif" font-weight="700" font-size="18" fill="#6366f1" letter-spacing="4">REAL LIFE. GAME RULES.</text>
+
+  <!-- Main headline -->
+  <text x="80" y="380" font-family="'Arial Black', sans-serif" font-weight="900" font-size="72" fill="white">Hack Your Brain.</text>
+  <text x="80" y="460" font-family="'Arial Black', sans-serif" font-weight="900" font-size="72" fill="white">Level Up Your Life.</text>
+
+  <!-- Tech pills -->
+  <rect x="80" y="505" width="90" height="36" rx="18" fill="#1f2937"/>
+  <text x="125" y="528" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#9ca3af">AI</text>
+
+  <rect x="182" y="505" width="140" height="36" rx="18" fill="#1f2937"/>
+  <text x="252" y="528" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#9ca3af">Blockchain</text>
+
+  <rect x="334" y="505" width="70" height="36" rx="18" fill="#1f2937"/>
+  <text x="369" y="528" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#9ca3af">AR</text>
+
+  <!-- Form Habits That Pay Off -->
+  <text x="80" y="592" font-family="Arial, sans-serif" font-size="20" fill="#6b7280">Form Habits That Pay Off</text>
+</svg>
