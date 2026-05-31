@@ -10,9 +10,9 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "NextJS Tailwind App Presentation Page",
+  title: "SnapQuest – Hack Your Brain. Level Up Your Life.",
   description:
-    "We are thrilled to offer you a Free App Presentation Template, a beautifully designed and user-friendly Tailwind CSS and Material Tailwind theme crafted specifically for app developers like you. The free app presentation template includes key features such as hero, features, FAQ, stats, and testimonial sections.",
+    "SnapQuest turns your daily habits into real-life quests with smart contract-secured stakes, AI-powered nudges, and AR check-ins. Built for ambitious people who want to make lasting change.",
 };
 
 export default function RootLayout({
