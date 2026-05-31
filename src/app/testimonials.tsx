@@ -8,23 +8,23 @@ import TestimonialCard from "@/components/testimonial-card";
 const TESTIMONIALS = [
   {
     feedback:
-      "It has been a game-changer for my business. Their dedication, expertise, and attention to detail have truly set them apart. I highly recommend their services!",
-    client: "Jessica Devis",
-    title: "CEO @ MARKETING DIGITAL LTD.",
+      "I'd been trying to wake up at 5 AM for two years. The moment I put real money on the line and had to snap a photo, I didn't miss a single day for 30 days. The group kept me from making excuses.",
+    client: "Jamie L.",
+    title: "Product Manager",
     img: "/image/avatar1.jpg",
   },
   {
     feedback:
-      "It understood my unique needs and delivered a tailored solution promptly. Their customer support is top-notch, and I appreciate their commitment.",
-    client: "Mary Joshiash",
-    title: "MARKETING @ APPLE INC.",
+      "After two years of 80-hour weeks I hit a wall. No energy, no routine, nothing outside of work. I started a simple sleep and exercise quest just to feel human again. Three months later those habits are the reason I can still do this job.",
+    client: "Ryan K.",
+    title: "Investment Analyst",
     img: "/image/avatar2.jpg",
   },
   {
     feedback:
-      "They not only met but exceeded our expectations. Their innovative approach and technical proficiency have been instrumental in our success.",
-    client: "Marcell Glock",
-    title: "CFO @ APPLE INC..",
+      "I had tried every productivity app out there. None of them made me feel anything when I skipped a day. SnapQuest did, because my money was on the line and my group could see it. That combination changed my behaviour in a way no notification ever could.",
+    client: "Priya M.",
+    title: "Lawyer",
     img: "/image/avatar3.jpg",
   },
 ];
@@ -41,9 +41,8 @@ export function Testimonials() {
             What Users Say
           </h2>
           <p className="mb-10 max-w-3xl text-center text-gray-600">
-            Discover what our valued clients have to say about their experiences
-            with our services. We take pride in delivering exceptional results
-            and fostering lasting partnerships.
+            Real people, real habits. See how SnapQuest helped busy
+            professionals and side hustlers turn intentions into daily action.
           </p>
         </div>
         <div className="grid grid-cols-1 gap-x-8 gap-y-12 md:grid-cols-3 lg:px-20">

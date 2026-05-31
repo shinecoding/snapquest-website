@@ -6,20 +6,20 @@ import InfoCard from "../components/info-card";
 
 const OPTIONS = [
   {
-    title: "10,000+",
-    description: "Completed Quests",
+    title: "AI-Powered",
+    description: "Personalised habit engine",
   },
   {
-    title: "500+",
-    description: "Active Quest Groups",
+    title: "On-Chain",
+    description: "Smart Contract securedstakes",
   },
   {
-    title: "24/7",
-    description: "Progress Tracking",
+    title: "AR-Enabled",
+    description: "Proof you can't fake",
   },
   {
-    title: "5/5",
-    description: "User Satisfactions",
+    title: "Gamified",
+    description: "Real life, game rules",
   },
 ];
 
@@ -32,15 +32,15 @@ export function MobileConvenience() {
           height={256}
           src="/image/iphone.png"
           className="col-span-1 w-1/2 mx-auto lg:w-10/12"
-          alt="iphone-photo"
+          alt="SnapQuest mobile app"
         />
         <div className="col-span-1 mx-auto max-w-lg px-4 lg:px-0">
           <h2 className="mb-4 text-3xl font-bold text-blue-gray-900">
-            Mobile Convenience
+            Built Different. By Design.
           </h2>
           <p className="mb-5 px-4 text-left text-xl text-gray-500 lg:px-0">
-            Track your quests, upload proof snaps, and check progress anytime,
-            anywhere.
+            Give yourself an unfair
+            advantage over your old self.
           </p>
 
           <div className="col-span-2 grid gap-5 grid-cols-2 ">

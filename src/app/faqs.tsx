@@ -4,28 +4,28 @@ import React from "react";
 
 const FAQS = [
   {
-    title: "How do I get started?",
-    desc: "Getting started is easy! Simply [Provide a brief overview of the initial steps or link to a detailed guide].",
+    title: "What happens when I complete a quest?",
+    desc: "Complete every check-in and your full stake is returned to you, plus a bonus share from those who did not finish. If you staked in crypto, it is fully redeemable at the end of the quest with no delays.",
   },
   {
-    title: "Is there a free trial available?",
-    desc: "Yes, we offer a 30 days free trial so you can experience our mobile application with no commitment.",
+    title: "What happens if I miss a day?",
+    desc: "Missing a check-in means you forfeit a portion of your stake. The forfeited amount is redistributed to quest members who stayed consistent, so everyone has real skin in the game.",
   },
   {
-    title: "How can I upgrade my account?",
-    desc: "To upgrade your account, log in and navigate to the [Upgrade Account] section in your dashboard. Follow the prompts to select your preferred plan.",
+    title: "How does photo verification work?",
+    desc: "Snap a quick photo that proves you completed the task: your running shoes, your open book, or your salad bowl. Photos are shared within your quest group, so everyone stays honest.",
   },
   {
-    title: "Can I cancel my subscription anytime?",
-    desc: "Absolutely, you can cancel your subscription at any time with no questions asked. Your subscription will remain active until the end of the current billing cycle.",
+    title: "Can I create a private quest just for my team?",
+    desc: "Absolutely. You can start a private quest and invite specific people, perfect for colleagues running a 30-day productivity challenge or a group of friends building side-project habits together.",
   },
   {
-    title: "How can I upgrade my account to paid?",
-    desc: "To upgrade your account, log in and navigate to the [Upgrade Account] section in your dashboard. Follow the prompts to select your preferred plan.",
+    title: "Is my money safe?",
+    desc: "Yes. Cash stakes are processed securely through Stripe and held in-app until the quest ends. Crypto stakes are locked in a smart contract with no intermediary involved. Either way, funds are only redistributed once the quest closes.",
   },
   {
-    title: "What if I need help or have technical issues?",
-    desc: "Our dedicated support team is here to assist you. Reach out via [mention preferred support channels, e.g., live chat, email, or phone], and we'll get back to you promptly.",
+    title: "What if someone fakes their proof snap?",
+    desc: "Any member can flag a suspicious check-in directly in the app. Our staff reviews every report and takes action accordingly. Quests are built on trust, and we take that seriously.",
   },
 ];
 
@@ -38,9 +38,8 @@ export function Faqs() {
             Frequently asked questions
           </h1>
           <p className="mx-auto mb-24 text-lg leading-relaxed text-gray-500 lg:w-3/5">
-            A lot of people don&apos;t appreciate the moment until it&apos;s
-            passed. I&apos;m not trying my hardest, and I&apos;m not trying to
-            do
+            Everything you need to know about getting started, staying
+            accountable, and making your stake work for you.
           </p>
         </div>
 

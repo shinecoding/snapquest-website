@@ -61,7 +61,7 @@ export function Navbar() {
         </a>
 
         {/* 데스크탑 메뉴 */}
-        <ul
+        {/* <ul
           className={`ml-10 hidden items-center gap-6 lg:flex ${
             isScrolling ? "text-gray-900" : "text-white"
           }`}
@@ -70,7 +70,7 @@ export function Navbar() {
           <NavItem>About Us</NavItem>
           <NavItem>Contact Us</NavItem>
           <NavItem>Docs</NavItem>
-        </ul>
+        </ul> */}
 
         {/* 데스크탑 소셜 + 버튼 */}
         {/* <div className="hidden gap-2 lg:flex lg:items-center">
@@ -119,12 +119,12 @@ export function Navbar() {
       {/* 모바일 메뉴 */}
       {open && (
         <div className="container mx-auto mt-4 rounded-lg border-t border-gray-200 bg-white px-6 py-5 lg:hidden">
-          <ul className="flex flex-col gap-4 text-gray-900">
+          {/* <ul className="flex flex-col gap-4 text-gray-900">
             <NavItem>Home</NavItem>
             <NavItem>About Us</NavItem>
             <NavItem>Contact Us</NavItem>
             <NavItem>Docs</NavItem>
-          </ul>
+          </ul> */}
           <div className="mt-4 flex items-center gap-2">
             {["twitter", "facebook", "instagram"].map((icon) => (
               <button

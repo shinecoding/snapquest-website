@@ -3,7 +3,6 @@
 import Image from "next/image";
 import React from "react";
 
-const LINKS = ["About Us", "Press", "Blog"];
 const CURRENT_YEAR = new Date().getFullYear();
 
 export function Footer() {
@@ -19,23 +18,9 @@ export function Footer() {
             >
               SnapQuest
             </a>
-            <p className="mb-12 font-normal text-white">
+            <p className="font-normal text-white">
               Form Habits That Pay Off
             </p>
-            <ul className="flex flex-wrap items-center justify-center md:justify-start">
-              {LINKS.map((link, idx) => (
-                <li key={link}>
-                  <a
-                    href="#!"
-                    className={`py-1 font-medium text-white transition-colors hover:text-gray-300 ${
-                      idx === 0 ? "pr-3" : "px-3"
-                    }`}
-                  >
-                    {link}
-                  </a>
-                </li>
-              ))}
-            </ul>
           </div>
 
           {/* 오른쪽 앱 다운로드 영역 */}
@@ -51,11 +36,11 @@ export function Footer() {
                 <Image
                   width={24}
                   height={24}
-                  src="/logos/logo-apple.png"
+                  src="/logos/logo-google.png"
                   className="-mt-0.5 mr-2 h-6 w-6"
-                  alt="ios"
+                  alt="android"
                 />
-                App Store
+                Google Play
               </a>
               <a
                 href="#"
@@ -64,11 +49,11 @@ export function Footer() {
                 <Image
                   width={24}
                   height={24}
-                  src="/logos/logo-google.png"
+                  src="/logos/logo-apple.png"
                   className="-mt-0.5 mr-2 h-6 w-6"
-                  alt="android"
+                  alt="ios"
                 />
-                Google Play
+                App Store
               </a>
             </div>
           </div>
@@ -77,23 +62,20 @@ export function Footer() {
         {/* 하단 영역 */}
         <div className="mt-16 flex flex-wrap items-center justify-center gap-y-4 gap-x-8 border-t border-gray-700 py-7 md:justify-between">
           <p className="text-center font-normal text-white opacity-75">
-            &copy; {CURRENT_YEAR}{" "}
-            <a href="#" className="hover:underline">
-              SnapQuest
-            </a>
+            &copy; {CURRENT_YEAR} SnapQuest by SHINECODING LTD. All rights reserved.
           </p>
 
           <div className="flex gap-2">
             {[
-              "twitter",
-              "linkedin",
-              "facebook",
-              "github",
-              "dribbble",
-            ].map((icon) => (
-              <button
+              { icon: "linkedin", href: "https://linkedin.com/company/snapquest-app" },
+              { icon: "instagram", href: "#" },
+              { icon: "tiktok", href: "#" },
+            ].map(({ icon, href }) => (
+              <a
                 key={icon}
-                type="button"
+                href={href}
+                target="_blank"
+                rel="noopener noreferrer"
                 aria-label={icon}
                 className="flex h-10 w-10 items-center justify-center rounded-full text-white opacity-75 transition hover:bg-white/10"
               >
@@ -101,7 +83,7 @@ export function Footer() {
                   className={`fa-brands fa-${icon} text-2xl not-italic`}
                   aria-hidden="true"
                 ></i>
-              </button>
+              </a>
             ))}
           </div>
         </div>
