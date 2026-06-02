@@ -2,6 +2,7 @@
 
 import React from "react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import { usePathname } from "next/navigation";
 
 interface NavItemProps {
   children: React.ReactNode;
@@ -23,6 +24,8 @@ function NavItem({ children, href }: NavItemProps) {
 }
 
 export function Navbar() {
+  const pathname = usePathname();
+  const isHome = pathname === "/";
   const [open, setOpen] = React.useState(false);
   const [isScrolling, setIsScrolling] = React.useState(false);
 
@@ -52,7 +55,7 @@ export function Navbar() {
     >
       <div className="container mx-auto flex items-center justify-between px-4 py-3">
         <a
-          href="#!"
+          href={isHome ? "#" : "/"}
           className={`text-lg font-bold ${
             isScrolling ? "text-gray-800" : "text-white"
           }`}
