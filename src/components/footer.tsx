@@ -2,10 +2,14 @@
 
 import Image from "next/image";
 import React from "react";
+import { usePathname } from "next/navigation";
 
 const CURRENT_YEAR = new Date().getFullYear();
 
 export function Footer() {
+  const pathname = usePathname();
+  const isHome = pathname === "/";
+
   return (
     <footer className="mt-10 bg-gray-900 px-8 pt-12">
       <div className="container mx-auto">
@@ -18,9 +22,34 @@ export function Footer() {
             >
               SnapQuest
             </a>
-            <p className="font-normal text-white">
+            <p className="mb-6 font-normal text-white">
               Form Habits That Pay Off
             </p>
+            
+            <ul className="flex flex-wrap items-center justify-center md:justify-start">
+              {!isHome && (
+                <li>
+                  <a href="/" className="py-1 pr-3 font-medium text-white transition-colors hover:text-gray-300">
+                    Home
+                  </a>
+                </li>
+              )}
+              <li>
+                <a href="/terms" className={`py-1 font-medium text-white transition-colors hover:text-gray-300 ${isHome ? "pr-3" : "px-3"}`}>
+                  Terms &amp; Conditions
+                </a>
+              </li>
+              <li>
+                <a href="/privacy" className="px-3 py-1 font-medium text-white transition-colors hover:text-gray-300">
+                  Privacy Policy
+                </a>
+              </li>
+              <li>
+                <a href="/data-protection" className="px-3 py-1 font-medium text-white transition-colors hover:text-gray-300">
+                  Data Protection
+                </a>
+              </li>
+            </ul>
           </div>
 
           {/* 오른쪽 앱 다운로드 영역 */}
