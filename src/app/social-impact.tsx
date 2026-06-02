@@ -37,13 +37,11 @@ export function SocialImpact() {
               </p>
             </div>
             <p className="leading-relaxed text-gray-500">
-              While navigating NHS support systems to tackle procrastination,
-              the team behind SnapQuest recognised that many people with ADHD,
-              ADD, depression, anxiety, burn out, and PTSD lack accessible,
+              Many people with ADHD, ADD, depression, anxiety, burn out, and PTSD lack accessible,
               everyday tools to manage low mood, procrastination, and stress.
               Considering that the NHS in England spent £12.13 billion on mental
               health investment (MHIS) in the 2024/25 financial year, a
-              low-cost, accessible mobile support tool like SnapQuest could help
+              research based, everyday mobile support tool like SnapQuest could help
               reduce the burden on the NHS. This could also benefit those who
               may not actively seek NHS support but continue to struggle with
               daily functioning in silence.
@@ -61,7 +59,7 @@ export function SocialImpact() {
             <div className="mb-6 rounded-xl bg-indigo-50 p-6">
               <p className="text-5xl font-black text-indigo-600">£6.7B</p>
               <p className="mt-1 text-sm font-medium text-indigo-400">
-                DESNZ Annual Expenditure 2024-25
+                DESNZ Annual Expenditure 2024/25
               </p>
             </div>
             <p className="leading-relaxed text-gray-500">
@@ -71,9 +69,8 @@ export function SocialImpact() {
               Zero). But systemic change starts with individual habits. SnapQuest
               enables users to create and join environment themed quests,
               turning sustainable behaviours into daily actions that are tracked,
-              proven, and shared. Small actions, done consistently by many, add
-              up. The platform gives people a way to contribute to a healthier
-              planet not through guilt, but through fun and rewarding progress.
+              proven, and shared. The platform gives people a way to contribute to a healthier
+              planet not through guilt, but through fun and rewarding engagement.
             </p>
           </div>
         </div>
