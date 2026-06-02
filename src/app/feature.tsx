@@ -48,7 +48,7 @@ export function Features() {
         <h1 className="mb-4 text-4xl font-bold text-blue-gray-900">
           Why SnapQuest Works
         </h1>
-        <p className="mx-auto w-full px-4 text-lg leading-relaxed text-gray-500 lg:w-11/12 lg:px-8">
+        <p className="mx-auto max-w-2xl text-center text-lg leading-relaxed text-gray-500">
           Built on behavioural psychology research and powered by AI, Blockchain,
           and AR, SnapQuest is the habit system designed for people who approach
           self-improvement the same way they approach their portfolio: with

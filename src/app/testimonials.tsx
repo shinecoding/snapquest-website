@@ -40,7 +40,8 @@ export function Testimonials() {
           <h2 className="mb-2 text-3xl font-bold text-blue-gray-900">
             What Users Say
           </h2>
-          <p className="mb-10 max-w-3xl text-center text-gray-600">
+          {/* <p className="mb-10 max-w-3xl text-center text-gray-600"> */}
+          <p className="mx-auto max-w-2xl text-center text-lg leading-relaxed text-gray-500">
             Real people, real habits. See how SnapQuest helped busy
             professionals and side hustlers turn intentions into daily action.
           </p>

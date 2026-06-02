@@ -10,13 +10,13 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "SnapQuest – Hack Your Brain. Level Up Your Life.",
+  title: "SnapQuest – Form Habits That Pay Off.",
   description:
     "SnapQuest turns your daily habits into real-life quests with smart contract-secured stakes, AI-powered nudges, and AR check-ins. Built for ambitious people who want to make lasting change.",
   openGraph: {
     title: "SnapQuest – Hack Your Brain. Level Up Your Life.",
     description:
-      "SnapQuest turns your daily habits into real-life quests with smart contract-secured stakes, AI-powered nudges, and AR check-ins. Built for ambitious people who want to make lasting change.",
+      "SnapQuest turns your daily habits into real-life quests with AI-powered nudges, smart contract-secured stakes, and AR check-ins. Built for ambitious people who want to make lasting change.",
     images: [{ url: "/og-image.png", width: 1200, height: 630 }],
   },
   twitter: {

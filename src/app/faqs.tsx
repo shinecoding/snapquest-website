@@ -37,7 +37,7 @@ export function Faqs() {
           <h1 className="mb-4 text-4xl font-bold text-blue-gray-900">
             Frequently asked questions
           </h1>
-          <p className="mx-auto mb-24 text-lg leading-relaxed text-gray-500 lg:w-3/5">
+          <p className="mx-auto mb-24 max-w-2xl text-center text-lg leading-relaxed text-gray-500">
             Everything you need to know about getting started, staying
             accountable, and making your stake work for you.
           </p>

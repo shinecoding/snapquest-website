@@ -9,6 +9,7 @@ import Feature from "./feature";
 import MobileConvenience from "./mobile-convenience";
 import Testimonials from "./testimonials";
 import Faqs from "./faqs";
+import SocialImpact from "./social-impact";
 
 export default function Campaign() {
   return (
@@ -17,9 +18,10 @@ export default function Campaign() {
       <Hero />
       <VideoIntro />
       <Feature />
-      <MobileConvenience />
+      {/* <MobileConvenience /> */}
       <Testimonials />
       <Faqs />
+      <SocialImpact />
       <Footer />
     </>
   );
