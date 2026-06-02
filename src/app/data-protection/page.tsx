@@ -84,7 +84,7 @@ export default function DataProtectionPage() {
             <h3 className="mb-1 font-semibold text-gray-800">Data Processing:</h3>
             <ul className="ml-6 mb-3 list-disc space-y-1">
               <li>Your quest participation history, snap submissions, profile information, and usage patterns are used as input to train and improve our AI models</li>
-              <li>AI processing occurs on SHINECODING LTD's own systems and infrastructure</li>
+              <li>AI processing occurs on SHINECODING LTD&apos;s own systems and infrastructure</li>
             </ul>
             <h3 className="mb-1 font-semibold text-gray-800">Legal Basis:</h3>
             <p className="mb-2">AI model training is based on legitimate interests in improving SnapQuest.</p>
@@ -121,7 +121,7 @@ export default function DataProtectionPage() {
 
           <section>
             <h2 className="mb-3 text-xl font-bold text-gray-900">6. DATA BREACHES</h2>
-            <p className="mb-3">SHINECODING LTD will notify the Information Commissioner's Office (ICO) within 72 hours if a breach poses risk to individual rights. Affected individuals will be notified without undue delay where high risk is identified.</p>
+            <p className="mb-3">SHINECODING LTD will notify the Information Commissioner&apos;s Office (ICO) within 72 hours if a breach poses risk to individual rights. Affected individuals will be notified without undue delay where high risk is identified.</p>
             <p>You acknowledge that data loss may occur due to circumstances beyond reasonable control. SHINECODING LTD is not liable for losses from events such as natural disasters, cyberattacks, or force majeure unless gross negligence is proven.</p>
           </section>
 
@@ -177,7 +177,7 @@ export default function DataProtectionPage() {
             <p className="mb-2">For data subject requests or policy questions:</p>
             <p className="mb-1">Email: snapquest.official@gmail.com</p>
             <p className="mb-4">Address: SHINECODING LTD, 12A Goldhurst Terrace, NW6 3HU, London, United Kingdom</p>
-            <p className="mb-1">Complaints may be lodged with the Information Commissioner's Office (ICO):</p>
+            <p className="mb-1">Complaints may be lodged with the Information Commissioner&apos;s Office (ICO):</p>
             <p>Website: <a href="https://ico.org.uk" target="_blank" rel="noopener noreferrer" className="text-indigo-600 hover:underline">https://ico.org.uk</a></p>
           </section>
 

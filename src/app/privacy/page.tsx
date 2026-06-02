@@ -128,7 +128,7 @@ export default function PrivacyPage() {
             <p className="mb-2">For privacy questions or data requests, contact:</p>
             <p className="mb-1">Email: snapquest.official@gmail.com</p>
             <p className="mb-4">Address: SHINECODING LTD, 12A Goldhurst Terrace, NW6 3HU, London, United Kingdom</p>
-            <p className="mb-1">You can lodge complaints with the Information Commissioner's Office (ICO):</p>
+            <p className="mb-1">You can lodge complaints with the Information Commissioner&apos;s Office (ICO):</p>
             <p>Website: <a href="https://ico.org.uk" target="_blank" rel="noopener noreferrer" className="text-indigo-600 hover:underline">https://ico.org.uk</a></p>
           </section>
 

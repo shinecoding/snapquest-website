@@ -17,17 +17,17 @@ export default function TermsPage() {
 
           <section>
             <h2 className="mb-3 text-xl font-bold text-gray-900">1. BINDING AGREEMENT</h2>
-            <p className="mb-3">By downloading, installing, accessing, or using SnapQuest (the "Service"), you agree to be bound by these Terms and Conditions ("Terms"). If you do not agree to all Terms, you must immediately cease using SnapQuest.</p>
-            <p className="mb-3">These Terms constitute the entire agreement between you and SHINECODING LTD ("we," "us," "Company") and supersede all prior discussions, negotiations, and agreements.</p>
+            <p className="mb-3">By downloading, installing, accessing, or using SnapQuest (the &quot;Service&quot;), you agree to be bound by these Terms and Conditions (&quot;Terms&quot;). If you do not agree to all Terms, you must immediately cease using SnapQuest.</p>
+            <p className="mb-3">These Terms constitute the entire agreement between you and SHINECODING LTD (&quot;we,&quot; &quot;us,&quot; &quot;Company&quot;) and supersede all prior discussions, negotiations, and agreements.</p>
             <p>These Terms are governed by the laws of England and Wales. You irrevocably submit to the jurisdiction of the English courts.</p>
           </section>
 
           <section>
             <h2 className="mb-3 text-xl font-bold text-gray-900">2. SERVICE DESCRIPTION</h2>
-            <p className="mb-3">SnapQuest is a gamified accountability platform enabling users ("Members") to participate in performance-based challenges ("Quests") by submitting photographic evidence ("Snaps").</p>
+            <p className="mb-3">SnapQuest is a gamified accountability platform enabling users (&quot;Members&quot;) to participate in performance-based challenges (&quot;Quests&quot;) by submitting photographic evidence (&quot;Snaps&quot;).</p>
             <p className="mb-3">Participation requires allocation of virtual Credits. Success is determined solely by user activity (snap submissions), not by chance, randomness, or luck.</p>
             <p className="mb-3">Outcomes are calculated based on the following formula: Success Rate = (Member Snaps / Required Snaps) x 100%.</p>
-            <p>SnapQuest operates on an "as-is" basis. We do not guarantee outcomes, earnings, or user satisfaction.</p>
+            <p>SnapQuest operates on an &quot;as-is&quot; basis. We do not guarantee outcomes, earnings, or user satisfaction.</p>
           </section>
 
           <section>
@@ -56,7 +56,7 @@ export default function TermsPage() {
               <li>Participation fee</li>
               <li>Success rate thresholds</li>
             </ul>
-            <p className="mb-4">Each Member's outcome is determined independently based solely on their verified snap submissions. Outcomes are decided by the quest leader (the creator of the quest). No chance, randomness, or luck is involved in the outcome determination.</p>
+            <p className="mb-4">Each Member&apos;s outcome is determined independently based solely on their verified snap submissions. Outcomes are decided by the quest leader (the creator of the quest). No chance, randomness, or luck is involved in the outcome determination.</p>
 
             <h3 className="mb-2 font-semibold text-gray-800">4.2 Success Rate Calculation</h3>
             <p className="mb-2">Success Rate is calculated as follows: Success Rate = (Your Snaps / Required Snaps) x 100%.</p>
@@ -100,7 +100,7 @@ export default function TermsPage() {
               <li>Members with Success Rate less than 85% have participation credits partially deducted</li>
               <li>Bonuses come from SHINECODING LTD, not from other members</li>
               <li>No credits are transferred between members</li>
-              <li>All distributions come from the smart contract's autonomous execution</li>
+              <li>All distributions come from the smart contract&apos;s autonomous execution</li>
             </ul>
             <p className="mb-3">The smart contract executes all settlements automatically. We have no control over settlement execution, timing, distribution, or outcomes. All transactions are irreversible and autonomous.</p>
             <p>Settlement results are final and binding. No reconsideration, revision, or dispute procedure is available.</p>
