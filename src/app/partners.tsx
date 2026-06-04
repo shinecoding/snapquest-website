@@ -6,6 +6,7 @@ import Image from "next/image";
 const PARTNERS = [
   { name: "Seoul Clinic", img: "/partners/seoul-clinic.jpg" },
   { name: "Kulture Class", img: "/partners/kulture-class.jpg" },
+  { name: "Grid Club", img: "/partners/grid-club.jpg" },
 ];
 
 export function Partners() {
