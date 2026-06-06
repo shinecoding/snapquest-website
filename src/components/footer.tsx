@@ -91,7 +91,7 @@ export function Footer() {
         {/* 하단 영역 */}
         <div className="mt-16 flex flex-wrap items-center justify-center gap-y-4 gap-x-8 border-t border-gray-700 py-7 md:justify-between">
           <p className="text-center font-normal text-white opacity-75">
-            &copy; {CURRENT_YEAR} SnapQuest by SHINECODING LTD. All rights reserved.
+            &copy; {CURRENT_YEAR} SnapQuest by SHINECODING LTD.
           </p>
 
           <div className="flex gap-2">
