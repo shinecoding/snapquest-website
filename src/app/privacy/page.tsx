@@ -34,7 +34,7 @@ export default function PrivacyPage() {
               <li>Email address and username</li>
               <li>Password (encrypted and not stored in plain text)</li>
               <li>Payment information (processed by Apple, Google, or Stripe - we do not store payment card details)</li>
-              <li>Wallet address (if you use blockchain payments)</li>
+              <li>Wallet address (if you use smart contract payments)</li>
               <li>Quest participation data</li>
               <li>Snaps you submit</li>
               <li>Profile information</li>
@@ -82,12 +82,12 @@ export default function PrivacyPage() {
               <li>Merchants: If you redeem vouchers (basic transaction details only)</li>
             </ul>
             <p className="mb-4">All third parties are required to protect your information and use it only for the purposes we specify.</p>
-            <h3 className="mb-2 font-semibold text-gray-800">5.1 Blockchain Data</h3>
-            <p className="mb-2">If you use blockchain payments, your wallet address and transaction history are recorded on the Polygon blockchain. This data is:</p>
+            <h3 className="mb-2 font-semibold text-gray-800">5.1 Smart Contract Data</h3>
+            <p className="mb-2">If you use smart contract payments, your wallet address and transaction history are recorded on Polyscan. This data is:</p>
             <ul className="ml-6 list-disc space-y-1">
-              <li>Public and permanently visible on the blockchain</li>
+              <li>Public and permanently visible on the smart contract</li>
               <li>Not shared by us (you provide your wallet address directly)</li>
-              <li>Not controlled by us (blockchain records cannot be deleted or modified)</li>
+              <li>Not controlled by us (smart contract records cannot be deleted or modified)</li>
             </ul>
           </section>
 
@@ -99,7 +99,7 @@ export default function PrivacyPage() {
               <li>Your profile and personal information are deleted immediately</li>
               <li>Financial and settlement records are retained as required by law</li>
               <li>Anonymized quest participation data may be retained for analytics, service improvement, and reporting purposes</li>
-              <li>Blockchain data cannot be deleted (it is public and permanent)</li>
+              <li>Smart contract data cannot be deleted (it is public and permanent)</li>
             </ul>
           </section>
 

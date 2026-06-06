@@ -102,7 +102,7 @@ export default function DataProtectionPage() {
             <p className="mb-3">You can request corrections to inaccurate data.</p>
 
             <h3 className="mb-1 font-semibold text-gray-800">Right to Erasure</h3>
-            <p className="mb-3">You can request deletion of your data, subject to legal retention requirements (financial records retained 6 years, settlement records retained 6 years, blockchain data permanent).</p>
+            <p className="mb-3">You can request deletion of your data, subject to legal retention requirements (financial records retained 6 years, settlement records retained 6 years, smart contract data permanent).</p>
 
             <h3 className="mb-1 font-semibold text-gray-800">Right to Restrict Processing</h3>
             <p className="mb-3">You can request that we limit how we use your data.</p>
@@ -148,7 +148,7 @@ export default function DataProtectionPage() {
               <li>Financial records: 6 years as required by UK tax law</li>
               <li>Quest settlement records: 6 years for financial compliance and dispute resolution</li>
               <li>Anonymized data: Indefinitely for analytics and service improvement</li>
-              <li>Blockchain data: Indefinitely (immutable public record)</li>
+              <li>Smart Contract data: Indefinitely (immutable public record)</li>
               <li>Data subject to legal holds: Until legal proceedings conclude</li>
             </ul>
             <p>Upon account deletion, personal identifiers are removed; anonymized transaction data may be retained indefinitely for analytics and reporting.</p>

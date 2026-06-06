@@ -20,9 +20,9 @@ const FEATURES = [
   },
   {
     icon: ShieldCheckIcon,
-    title: "Blockchain-Secured Stakes",
+    title: "Smart Contract-Secured Stakes",
     children:
-      "Stakes are held on-chain. Transparent, secure, and fully yours. No intermediary holds your money. Smart contracts automatically redistribute rewards after a quest closes.",
+      "Stakes are held on-chain. Transparent, secure, decentralised, and fully yours. No intermediary holds your money. Smart contracts automatically redistribute rewards after a quest closes.",
   },
   {
     icon: CameraIcon,
@@ -49,7 +49,7 @@ export function Features() {
           Why SnapQuest Works
         </h1>
         <p className="mx-auto max-w-2xl text-center text-lg leading-relaxed text-gray-500">
-          Built on behavioural psychology research and powered by AI, Blockchain,
+          Built on behavioural psychology research and powered by AI, Smart Contract,
           and AR, SnapQuest is the habit system designed for people who approach
           self-improvement the same way they approach their portfolio: with
           strategy, accountability, and skin in the game.
