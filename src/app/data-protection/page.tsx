@@ -88,7 +88,7 @@ export default function DataProtectionPage() {
             </ul>
             <h3 className="mb-1 font-semibold text-gray-800">Legal Basis:</h3>
             <p className="mb-2">AI model training is based on legitimate interests in improving SnapQuest.</p>
-            <p>You have the right to object to this processing at any time by contacting snapquest.official@gmail.com.</p>
+            <p>You have the right to object to this processing at any time by contacting admin@snapquest.uk.</p>
           </section>
 
           <section>
@@ -96,7 +96,7 @@ export default function DataProtectionPage() {
             <p className="mb-4">You have rights under UK GDPR:</p>
 
             <h3 className="mb-1 font-semibold text-gray-800">Right of Access</h3>
-            <p className="mb-3">You can request a copy of your personal data. Contact snapquest.official@gmail.com.</p>
+            <p className="mb-3">You can request a copy of your personal data. Contact admin@snapquest.uk.</p>
 
             <h3 className="mb-1 font-semibold text-gray-800">Right to Rectification</h3>
             <p className="mb-3">You can request corrections to inaccurate data.</p>
@@ -116,7 +116,7 @@ export default function DataProtectionPage() {
             <h3 className="mb-1 font-semibold text-gray-800">Automated Decision-Making</h3>
             <p className="mb-4">You have rights regarding decisions based solely on automated processing.</p>
 
-            <p>All requests should be sent to snapquest.official@gmail.com. We will respond within 30 days.</p>
+            <p>All requests should be sent to admin@snapquest.uk. We will respond within 30 days.</p>
           </section>
 
           <section>
@@ -156,7 +156,7 @@ export default function DataProtectionPage() {
 
           <section>
             <h2 className="mb-3 text-xl font-bold text-gray-900">11. GOVERNANCE</h2>
-            <p className="mb-2">SHINECODING LTD designates a Data Protection Lead (snapquest.official@gmail.com) responsible for:</p>
+            <p className="mb-2">SHINECODING LTD designates a Data Protection Lead (admin@snapquest.uk) responsible for:</p>
             <ul className="ml-6 mb-4 list-disc space-y-1">
               <li>GDPR compliance monitoring</li>
               <li>Data subject requests handling</li>
@@ -175,7 +175,7 @@ export default function DataProtectionPage() {
           <section>
             <h2 className="mb-3 text-xl font-bold text-gray-900">12. CONTACT</h2>
             <p className="mb-2">For data subject requests or policy questions:</p>
-            <p className="mb-1">Email: snapquest.official@gmail.com</p>
+            <p className="mb-1">Email: admin@snapquest.uk</p>
             <p className="mb-4">Address: SHINECODING LTD, 12A Goldhurst Terrace, NW6 3HU, London, United Kingdom</p>
             <p className="mb-1">Complaints may be lodged with the Information Commissioner&apos;s Office (ICO):</p>
             <p>Website: <a href="https://ico.org.uk" target="_blank" rel="noopener noreferrer" className="text-indigo-600 hover:underline">https://ico.org.uk</a></p>

@@ -24,7 +24,7 @@ export default function PrivacyPage() {
           <section>
             <h2 className="mb-3 text-xl font-bold text-gray-900">2. DATA CONTROLLER</h2>
             <p className="mb-2">SHINECODING LTD is the data controller for your personal information.</p>
-            <p>Contact: snapquest.official@gmail.com</p>
+            <p>Contact: admin@snapquest.uk</p>
           </section>
 
           <section>
@@ -115,7 +115,7 @@ export default function PrivacyPage() {
 
           <section>
             <h2 className="mb-3 text-xl font-bold text-gray-900">9. CHILDREN</h2>
-            <p>SnapQuest is not intended for users under 18. If we discover a minor is using SnapQuest, we will delete their account and information. If you are a parent and discover your child using SnapQuest, contact snapquest.official@gmail.com immediately.</p>
+            <p>SnapQuest is not intended for users under 18. If we discover a minor is using SnapQuest, we will delete their account and information. If you are a parent and discover your child using SnapQuest, contact admin@snapquest.uk immediately.</p>
           </section>
 
           <section>
@@ -126,7 +126,7 @@ export default function PrivacyPage() {
           <section>
             <h2 className="mb-3 text-xl font-bold text-gray-900">11. CONTACT</h2>
             <p className="mb-2">For privacy questions or data requests, contact:</p>
-            <p className="mb-1">Email: snapquest.official@gmail.com</p>
+            <p className="mb-1">Email: admin@snapquest.uk</p>
             <p className="mb-4">Address: SHINECODING LTD, 12A Goldhurst Terrace, NW6 3HU, London, United Kingdom</p>
             <p className="mb-1">You can lodge complaints with the Information Commissioner&apos;s Office (ICO):</p>
             <p>Website: <a href="https://ico.org.uk" target="_blank" rel="noopener noreferrer" className="text-indigo-600 hover:underline">https://ico.org.uk</a></p>
