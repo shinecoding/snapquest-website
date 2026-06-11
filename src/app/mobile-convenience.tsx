@@ -31,7 +31,7 @@ export function MobileConvenience() {
           width={256}
           height={256}
           src="/image/iphone.png"
-          className="col-span-1 w-1/2 mx-auto lg:w-10/12"
+          className="col-span-1 mx-auto h-auto w-1/2 object-contain lg:w-10/12"
           alt="SnapQuest mobile app"
         />
         <div className="col-span-1 mx-auto max-w-lg px-4 lg:px-0">

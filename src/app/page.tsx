@@ -11,6 +11,7 @@ import Testimonials from "./testimonials";
 import Faqs from "./faqs";
 import SocialImpact from "./social-impact";
 import Partners from "./partners";
+import BetaSignup from "./beta-signup";
 
 export default function Campaign() {
   return (
@@ -23,6 +24,7 @@ export default function Campaign() {
       <Testimonials />
       <Faqs />
       <SocialImpact />
+      <BetaSignup />
       <Partners />
       <Footer />
     </>

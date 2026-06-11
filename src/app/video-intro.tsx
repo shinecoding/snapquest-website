@@ -9,13 +9,13 @@ import { PlayIcon } from "@heroicons/react/24/outline";
 export function VideoIntro() {
   return (
     <div className="p-8">
-      <div className="w-full container px-5 overflow-hidden rounded-xl relative mx-auto mt-20 max-w-6xl ">
-        <div className="bg-black/25 z-10 absolute w-full h-full inset-0 rounded-xl" />
+      <div className="relative mx-auto mt-20 aspect-[768/400] w-full max-w-6xl overflow-hidden rounded-xl px-5 container">
+        <div className="absolute inset-0 z-10 rounded-xl bg-black/25" />
         <Image
           width={768}
           height={400}
           src="/image/Background.png"
-          className="w-full object-cover scale-110 rounded-xl h-full"
+          className="h-full w-full rounded-xl object-cover"
           alt=""
         />
         <div className="absolute top-2/4 left-2/4 -translate-x-2/4 -translate-y-2/4 z-10">

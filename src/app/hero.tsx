@@ -60,7 +60,7 @@ function Hero() {
             height={576}
             src="/image/iphones.png"
             alt="SnapQuest app"
-            className="col-span-1 my-20 h-full max-h-[30rem] -translate-y-32 md:max-h-[36rem] lg:my-0 lg:ml-auto lg:max-h-[40rem] lg:translate-y-0"
+            className="col-span-1 my-20 h-auto w-full max-w-[18rem] -translate-y-32 object-contain sm:max-w-[22rem] md:max-w-[26rem] lg:my-0 lg:ml-auto lg:max-w-[29rem] lg:translate-y-0"
           />
         </div>
       </header>
