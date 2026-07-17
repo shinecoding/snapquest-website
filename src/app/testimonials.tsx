@@ -1,14 +1,13 @@
 "use client";
 
-import React from "react";
-import { UserIcon } from "@heroicons/react/24/solid";
 import TestimonialCard from "@/components/testimonial-card";
+import { UserIcon } from "@heroicons/react/24/solid";
 
 
 const TESTIMONIALS = [
   {
     feedback:
-      "I'd been trying to wake up at 5 AM for two years. The moment I put real money on the line and had to snap a photo, I didn't miss a single day for 30 days. The group kept me from making excuses.",
+      "I'd been trying to wake up at 5 AM for two years. The AI notifications nudged me at the right moment and got me to take the snap each morning. I didn't miss a single day for 30 days. The group kept me from making excuses.",
     client: "Jamie L.",
     title: "Product Manager",
     img: "/image/avatar1.jpg",
@@ -22,7 +21,7 @@ const TESTIMONIALS = [
   },
   {
     feedback:
-      "I had tried every productivity app out there. None of them made me feel anything when I skipped a day. SnapQuest did, because my money was on the line and my group could see it. That combination changed my behaviour in a way no notification ever could.",
+      "I had tried every productivity app out there. None of them made me feel anything when I skipped a day. SnapQuest did, because I was financially motivated and my group could see my progress. That combination changed my behaviour in a way no notification ever could.",
     client: "Priya M.",
     title: "Lawyer",
     img: "/image/avatar3.jpg",
