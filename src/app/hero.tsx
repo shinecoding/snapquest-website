@@ -18,8 +18,7 @@ function Hero() {
 
             <p className="mb-7 pr-0 text-white/80 md:pr-16 xl:pr-28">
               Built for ambitious dreamers. SnapQuest uses behavioural psychology,
-              AI, Smart Contract, and AR to turn your daily habits into a real life game with
-              financial stakes.
+              AI, and AR to turn daily habits into real-life quests.
             </p>
             <h6 className="mb-4 text-sm font-semibold uppercase tracking-wide text-white/60">
               Get the app

@@ -21,7 +21,7 @@ const TESTIMONIALS = [
   },
   {
     feedback:
-      "I had tried every productivity app out there. None of them made me feel anything when I skipped a day. SnapQuest did, because I was financially motivated and my group could see my progress. That combination changed my behaviour in a way no notification ever could.",
+      "I had tried every productivity app out there. None of them made me feel anything when I skipped a day. SnapQuest did, because I was financially motivated and my group could see my progress. That combination changed my behaviour in a way no app ever could.",
     client: "Priya M.",
     title: "Lawyer",
     img: "/image/avatar3.jpg",

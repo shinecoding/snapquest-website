@@ -47,6 +47,11 @@ export default function DataProtectionPage() {
           </section>
 
           <section>
+            <h2 className="mb-3 text-xl font-bold text-gray-900">2.1 SPECIAL CATEGORY DATA</h2>
+            <p>SnapQuest does not collect, process, or store biometric data (such as facial recognition templates, fingerprints, or other data used to uniquely identify an individual through physical or behavioural characteristics) or any other special category data under Article 9 UK GDPR. Snaps submitted for quest verification are treated as ordinary user content and are not analyzed for, or used to derive, biometric identifiers.</p>
+          </section>
+
+          <section>
             <h2 className="mb-3 text-xl font-bold text-gray-900">3. SECURITY MEASURES</h2>
             <p className="mb-2">SHINECODING LTD implements security measures including:</p>
             <ul className="ml-6 mb-4 list-disc space-y-1">
@@ -69,7 +74,8 @@ export default function DataProtectionPage() {
               <li>AWS, Google Cloud (hosting and infrastructure)</li>
               <li>Google Analytics (analytics)</li>
             </ul>
-            <p>All third parties are bound by Data Processing Agreements requiring data protection obligations. SHINECODING LTD remains liable for processor compliance with GDPR.</p>
+            <p className="mb-3">All third parties are bound by Data Processing Agreements requiring data protection obligations. SHINECODING LTD remains liable for processor compliance with GDPR.</p>
+            <p>SHINECODING LTD does not sell personal data and does not share personal data with any third party other than the service providers who help us operate SnapQuest.</p>
           </section>
 
           <section>
@@ -102,7 +108,7 @@ export default function DataProtectionPage() {
             <p className="mb-3">You can request corrections to inaccurate data.</p>
 
             <h3 className="mb-1 font-semibold text-gray-800">Right to Erasure</h3>
-            <p className="mb-3">You can request deletion of your data, subject to legal retention requirements (financial records retained 6 years, settlement records retained 6 years, smart contract data permanent).</p>
+            <p className="mb-3">You can request deletion of your data, subject to legal retention requirements (financial records retained 6 years, settlement records retained 6 years).</p>
 
             <h3 className="mb-1 font-semibold text-gray-800">Right to Restrict Processing</h3>
             <p className="mb-3">You can request that we limit how we use your data.</p>
@@ -148,7 +154,6 @@ export default function DataProtectionPage() {
               <li>Financial records: 6 years as required by UK tax law</li>
               <li>Quest settlement records: 6 years for financial compliance and dispute resolution</li>
               <li>Anonymized data: Indefinitely for analytics and service improvement</li>
-              <li>Smart Contract data: Indefinitely (immutable public record)</li>
               <li>Data subject to legal holds: Until legal proceedings conclude</li>
             </ul>
             <p>Upon account deletion, personal identifiers are removed; anonymized transaction data may be retained indefinitely for analytics and reporting.</p>

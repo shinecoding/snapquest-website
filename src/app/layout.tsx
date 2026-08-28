@@ -1,7 +1,7 @@
-import "./globals.css";
 import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
-import Layout from "@/components/site-layout";
+import { SiteLayout } from "@/components/site-layout";
+import "./globals.css";
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -12,18 +12,18 @@ const roboto = Roboto({
 export const metadata: Metadata = {
   title: "SnapQuest – Form Habits That Pay Off.",
   description:
-    "SnapQuest turns your daily habits into real-life quests with smart contract-secured stakes, AI-powered nudges, and AR check-ins. Built for ambitious people who want to make lasting change.",
+    "SnapQuest turns daily habits into real-life quests with AI-powered nudges and AR check-ins. Built for ambitious people who want to make lasting change.",
   openGraph: {
     title: "SnapQuest – Hack Your Brain. Level Up Your Life.",
     description:
-      "SnapQuest turns your daily habits into real-life quests with AI-powered nudges, smart contract-secured stakes, and AR check-ins. Built for ambitious people who want to make lasting change.",
+      "SnapQuest turns daily habits into real-life quests with AI-powered nudges and AR check-ins. Built for ambitious people who want to make lasting change.",
     images: [{ url: "/og-image.png", width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",
     title: "SnapQuest – Hack Your Brain. Level Up Your Life.",
     description:
-      "SnapQuest turns your daily habits into real-life quests with smart contract-secured stakes, AI-powered nudges, and AR check-ins. Built for ambitious people who want to make lasting change.",
+      "SnapQuest turns daily habits into real-life quests with AI-powered nudges and AR check-ins. Built for ambitious people who want to make lasting change.",
     images: ["/og-image.png"],
   },
 };
@@ -46,9 +46,9 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
       </head>
       <body className={roboto.className}>
-        <Layout>
+        <SiteLayout>
           {children}
-        </Layout>
+        </SiteLayout>
       </body>
     </html>
   );

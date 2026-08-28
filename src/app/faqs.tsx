@@ -1,15 +1,14 @@
 "use client";
 
-import React from "react";
 
 const FAQS = [
   {
     title: "What happens when I complete a quest?",
-    desc: "Complete every check-in and your full stake is returned to you, plus a bonus share from those who did not finish. If you staked in crypto, it is fully redeemable at the end of the quest with no delays.",
+    desc: "Complete every check-in and credits are returned to your balance. You may also receive a reward bonus.",
   },
   {
     title: "What happens if I miss a day?",
-    desc: "Missing a check-in means you forfeit a portion of your stake. The forfeited amount is redistributed to quest members who stayed consistent, so everyone has real skin in the game.",
+    desc: "Missing a check-in reduces your credits based on your success rate.",
   },
   {
     title: "How does photo verification work?",
@@ -21,7 +20,7 @@ const FAQS = [
   },
   {
     title: "Is my money safe?",
-    desc: "Yes. Cash stakes are processed securely through Stripe and held in-app until the quest ends. Crypto stakes are locked in a smart contract with no intermediary involved. Either way, funds are only redistributed once the quest closes.",
+    desc: "Payments are processed securely through Apple, Google, or Stripe. SnapQuest does not hold your money.",
   },
   {
     title: "What if someone fakes their proof snap?",
@@ -38,8 +37,7 @@ export function Faqs() {
             Frequently asked questions
           </h1>
           <p className="mx-auto mb-24 max-w-2xl text-center text-lg leading-relaxed text-gray-500">
-            Everything you need to know about getting started, staying
-            accountable, and making your stake work for you.
+            Everything you need to know about quests, Rewards, and vouchers.
           </p>
         </div>
 

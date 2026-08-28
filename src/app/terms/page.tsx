@@ -10,7 +10,7 @@ export default function TermsPage() {
           <h1 className="mb-2 text-4xl font-bold text-gray-900">TERMS AND CONDITIONS</h1>
           <p className="text-gray-500">SHINECODING LTD</p>
           <p className="text-gray-500">12A Goldhurst Terrace, NW6 3HU, London, United Kingdom</p>
-          <p className="text-gray-500">Last Updated: April 26, 2026</p>
+          <p className="text-gray-500">Last Updated: July 17, 2026</p>
         </div>
 
         <div className="space-y-10 text-gray-600 leading-relaxed">
@@ -24,16 +24,19 @@ export default function TermsPage() {
 
           <section>
             <h2 className="mb-3 text-xl font-bold text-gray-900">2. SERVICE DESCRIPTION</h2>
-            <p className="mb-3">SnapQuest is a gamified accountability platform enabling users (&quot;Members&quot;) to participate in performance-based challenges (&quot;Quests&quot;) by submitting photographic evidence (&quot;Snaps&quot;).</p>
+            <p className="mb-3">SnapQuest is a gamified accountability service enabling users (&quot;Members&quot;) to participate in performance-based challenges (&quot;Quests&quot;) by submitting photographic evidence (&quot;Snaps&quot;).</p>
             <p className="mb-3">Participation requires allocation of virtual Credits. Success is determined solely by user activity (snap submissions), not by chance, randomness, or luck.</p>
             <p className="mb-3">Outcomes are calculated based on the following formula: Success Rate = (Member Snaps / Required Snaps) x 100%.</p>
+            <p className="mb-3">Quests are settled in-app; forfeited participation credits are retained as a service fee; Rewards (if any) are funded from SHINECODING LTD&apos;s company budget and may be redeemed for merchant vouchers.</p>
+            <p className="mb-3">When you purchase Credits, you are purchasing access to the SnapQuest service and its performance-tracking features. You are not depositing, investing, or entrusting funds with SHINECODING LTD for safekeeping. SHINECODING LTD does not hold, custody, or act as a trustee or escrow agent of your money at any time; amounts paid are consideration for the Service, processed and settled in accordance with Section 4.</p>
+            <p className="mb-3">By purchasing Credits, you expressly request that SHINECODING LTD begin performance of the Service immediately, and you acknowledge that you thereby lose your statutory right to cancel (withdraw) under the Consumer Contracts (Information, Cancellation and Additional Charges) Regulations 2013.</p>
             <p>SnapQuest operates on an &quot;as-is&quot; basis. We do not guarantee outcomes, earnings, or user satisfaction.</p>
           </section>
 
           <section>
             <h2 className="mb-3 text-xl font-bold text-gray-900">3. ELIGIBILITY AND ACCOUNT RESPONSIBILITY</h2>
             <p className="mb-3">You must be at least 18 years old to use SnapQuest.</p>
-            <p className="mb-3">You are solely responsible for all activity on your account. We are not liable for unauthorized access, regardless of cause. You must maintain confidentiality of your credentials.</p>
+            <p className="mb-3">You are solely responsible for all activity on your account. You must maintain confidentiality of your credentials.</p>
             <p className="mb-3">You represent that all information provided is accurate and complete.</p>
             <p className="mb-3">We may suspend or terminate your account for any reason, with or without notice, including:</p>
             <ul className="ml-6 list-disc space-y-1">
@@ -56,59 +59,40 @@ export default function TermsPage() {
               <li>Participation fee</li>
               <li>Success rate thresholds</li>
             </ul>
-            <p className="mb-4">Each Member&apos;s outcome is determined independently based solely on their verified snap submissions. Outcomes are decided by the quest leader (the creator of the quest). No chance, randomness, or luck is involved in the outcome determination.</p>
+            <p className="mb-4">Each Member&apos;s outcome is determined independently based solely on their verified snap submissions against the Quest&apos;s stated conditions. The quest leader (the creator of the Quest) sets those conditions. By participating in a Quest, a Member agrees to that Quest&apos;s stated conditions. No chance, randomness, or luck is involved in the outcome determination.</p>
 
             <h3 className="mb-2 font-semibold text-gray-800">4.2 Success Rate Calculation</h3>
             <p className="mb-2">Success Rate is calculated as follows: Success Rate = (Your Snaps / Required Snaps) x 100%.</p>
             <p className="mb-2">Only snaps meeting content standards are counted.</p>
             <p className="mb-4">Calculation is deterministic and final upon settlement.</p>
 
-            <h3 className="mb-2 font-semibold text-gray-800">4.3 Settlement and Distribution - In-App Payments</h3>
+            <h3 className="mb-2 font-semibold text-gray-800">4.3 Settlement and Distribution - In-App and Stripe Payments</h3>
+            <p className="mb-3">This section applies only to quests paid with in-app Credits or Stripe. These are the only quests that may earn Rewards eligible for voucher redemption.</p>
             <p className="mb-3">Quests settle within 3 days of deadline.</p>
             <p className="mb-2 font-medium text-gray-700">Individual Success Rate Determination:</p>
             <ul className="ml-6 mb-3 list-disc space-y-1">
-              <li>Success Rate 100%: Successful (may be eligible for bonus)</li>
-              <li>Success Rate 85% or greater, but less than 100%: Participation credit fully returned, no bonus</li>
-              <li>Success Rate less than 85%: Unsuccessful (participation credit partially deducted; you receive back a portion calculated as: participation credit x success rate. No reward will be given.)</li>
+              <li>Success Rate 100%: Successful (may be eligible for a Company-funded Reward)</li>
+              <li>Success Rate 85% or greater, but less than 100%: Participation credit fully returned, no Reward</li>
+              <li>Success Rate less than 85%: Unsuccessful (participation credit partially deducted; you receive back a portion calculated as: participation credit x success rate. No Reward will be given.)</li>
             </ul>
-            <p className="mb-2 font-medium text-gray-700">Bonus Distribution:</p>
-            <p className="mb-2">Bonuses (Reward Credits) are distributed by SHINECODING LTD as follows:</p>
+            <p className="mb-2 font-medium text-gray-700">Forfeited participation credits (service fee):</p>
+            <p className="mb-3">Any participation credits deducted from unsuccessful Members are retained by SHINECODING LTD as a service fee and/or extinguished. They are not redistributed to other Members, not transferred into any Member prize pool, and are not used to fund Rewards.</p>
+            <p className="mb-2 font-medium text-gray-700">Company-funded Rewards:</p>
+            <p className="mb-2">Rewards are a discretionary rebate paid by SHINECODING LTD, separately from and out of its own company budget, to Members who successfully complete a Quest. They are not a prize, winnings, or return on investment, and are not funded by other Members&apos; forfeited credits. Where Rewards are awarded:</p>
             <ul className="ml-6 mb-3 list-disc space-y-1">
-              <li>All Successful Members (Success Rate 100%) receive equal bonus shares</li>
-              <li>Bonuses are distributed only if the distributed share to each member is equal to or more than 1 credit</li>
-              <li>Bonuses are distributed only if at least one member in the quest achieves Success Rate less than 85%</li>
-              <li>Bonuses come from SHINECODING LTD, not from other members</li>
-              <li>No credits are transferred between members</li>
+              <li>All Successful Members (Success Rate 100%) receive equal Reward shares</li>
+              <li>Rewards are paid only if each Successful Member&apos;s share is equal to or more than 1 Reward unit</li>
+              <li>If every Member in the Quest achieves a Success Rate of 85% or greater, no Reward is paid, in order to deter collusion (for example, every Member arranging to &quot;succeed&quot; so that everyone receives a Reward)</li>
+              <li>No Credits or Rewards are transferred between Members</li>
             </ul>
-            <p className="mb-3">SHINECODING LTD manages all fund transfers, refunds, and bonus distributions for in-app payments. Settlement is processed automatically through our system within 3 days of quest deadline.</p>
-            <p className="mb-4">Settlement results are final and binding. No reconsideration, revision, or dispute procedure is available except where SHINECODING LTD made a demonstrable calculation error affecting multiple users.</p>
-
-            <h3 className="mb-2 font-semibold text-gray-800">4.3A Settlement and Distribution - Smart Contract Payments (Polygon)</h3>
-            <p className="mb-3">Quests settle within 3 days of deadline.</p>
-            <p className="mb-2">Individual Success Rate Determination:</p>
-            <ul className="ml-6 mb-3 list-disc space-y-1">
-              <li>Success Rate 100%: Successful (may be eligible for bonus)</li>
-              <li>Success Rate 85% or greater, but less than 100%: Participation credit fully returned, no bonus</li>
-              <li>Success Rate less than 85%: Unsuccessful (participation credit partially deducted; you receive back a portion calculated as: participation credit x success rate. No reward will be given.)</li>
-            </ul>
-            <p className="mb-2">The smart contract automatically calculates success rates and distributes credits as follows:</p>
-            <ul className="ml-6 mb-3 list-disc space-y-1">
-              <li>All Successful Members (Success Rate 100%) receive equal bonus shares (if applicable)</li>
-              <li>Bonuses are distributed only if the distributed share to each member is equal to or more than 1 credit</li>
-              <li>Bonuses are distributed only if at least one member in the quest achieves Success Rate less than 85%</li>
-              <li>Members with Success Rate 85% to 99% receive their full participation credit back</li>
-              <li>Members with Success Rate less than 85% have participation credits partially deducted</li>
-              <li>Bonuses come from SHINECODING LTD, not from other members</li>
-              <li>No credits are transferred between members</li>
-              <li>All distributions come from the smart contract&apos;s autonomous execution</li>
-            </ul>
-            <p className="mb-3">The smart contract executes all settlements automatically. We have no control over settlement execution, timing, distribution, or outcomes. All transactions are irreversible and autonomous.</p>
-            <p>Settlement results are final and binding. No reconsideration, revision, or dispute procedure is available.</p>
+            <p className="mb-3">SHINECODING LTD manages all fund transfers, refunds, service-fee forfeitures, and Company-funded Reward distributions for in-app and Stripe payments. Settlement is processed automatically through our system within 3 days of quest deadline.</p>
+            <p className="mb-4">Settlement results are final and binding.</p>
           </section>
 
           <section>
             <h2 className="mb-3 text-xl font-bold text-gray-900">4.4 Voucher Redemption</h2>
-            <p className="mb-3">Vouchers at participating merchants may only be purchased using Rewards. Credits cannot be used to purchase Vouchers. Minimum balance of 1,000 Rewards required.</p>
+            <p className="mb-3">Vouchers at participating merchants may only be purchased using Company-funded Rewards from in-app payment or Stripe quests (Section 4.3). Credits cannot be used to purchase Vouchers.</p>
+            <p className="mb-3">Minimum balance of 1,000 Rewards required.</p>
             <p className="mb-3">All Voucher purchases are final and non-refundable. Vouchers cannot be exchanged, returned, or converted back to Rewards or Credits.</p>
             <p className="mb-2">Voucher validity, expiration, redemption terms, and merchant policies are controlled by merchants, not SHINECODING LTD. We are not responsible for:</p>
             <ul className="ml-6 mb-3 list-disc space-y-1">
@@ -119,7 +103,27 @@ export default function TermsPage() {
               <li>Merchant non-compliance</li>
             </ul>
             <p className="mb-3">Rewards may alternatively be converted to Credits at the specified exchange rate for future quest participation, instead of redeeming for Vouchers.</p>
-            <p>Rewards earned through quests are non-refundable and cannot be redeemed for real money, Credits (except via conversion), or cash equivalents.</p>
+            <p>Rewards earned through in-app or Stripe quests are non-refundable and cannot be redeemed for real money or cash, other than merchant vouchers as described in this section (or conversion to Credits as above).</p>
+          </section>
+
+          <section>
+            <h2 className="mb-3 text-xl font-bold text-gray-900">5. SERVICE AVAILABILITY AND OUTAGES</h2>
+            <p className="mb-3">SnapQuest is provided using commercially reasonable efforts to maintain availability, but we do not guarantee uninterrupted, error-free, or continuous access to the Service. Outages may occur due to maintenance, technical failure, or circumstances beyond our reasonable control.</p>
+            <p className="mb-3">Where SHINECODING LTD&apos;s own monitoring systems confirm that a Service outage prevented Members generally from submitting Snaps during a required submission window, SHINECODING LTD will, at its discretion, either count that window as a successfully submitted Snap for all affected Members when calculating Success Rate (Member Snaps / Required Snaps x 100%), or extend the affected deadline for all impacted Members. This is the sole and exclusive remedy for Service outages. Individual, unverified reports of a missed submission are not treated as outage-related unless confirmed by SHINECODING LTD&apos;s monitoring systems.</p>
+            <p className="mb-3">If Quest, Snap, Credit, or Reward data is lost, corrupted, or otherwise unrecoverable (including as a result of technical failure, security incident, or data loss event), SHINECODING LTD will use reasonable efforts to reconstruct the affected data from backups or from records held by its payment processors (Apple, Google, Stripe). Where the affected data cannot be reconstructed, SHINECODING LTD will void the affected Quest(s) and refund or credit any verifiable payment made for them; no further compensation is payable.</p>
+            <p>Except in cases of gross negligence or fraud, SHINECODING LTD&apos;s liability for any Service outage or data loss event is limited to the participation credit paid for the directly affected Quest, and SHINECODING LTD is not liable for any indirect, consequential, or incidental loss.</p>
+          </section>
+
+          <section>
+            <h2 className="mb-3 text-xl font-bold text-gray-900">6. FRAUDULENT OR UNAUTHORIZED PAYMENTS</h2>
+            <p className="mb-3">Payments made using a stolen, unauthorized, or fraudulently obtained payment method are prohibited. If a payment is later reversed, charged back, disputed, or identified as unauthorized or fraudulent (whether by the payment processor, card issuer, or SHINECODING LTD&apos;s own fraud checks), SHINECODING LTD may, at any time and regardless of how much time has elapsed:</p>
+            <ul className="ml-6 mb-3 list-disc space-y-1">
+              <li>Suspend or terminate the associated account</li>
+              <li>Withhold, freeze, reverse, or forfeit any Credits, Rewards, or Vouchers associated with the disputed payment or account, whether or not they have already been used, redeemed, or converted</li>
+              <li>Deduct the disputed amount from any other balance held on the account</li>
+              <li>Report the matter to the relevant payment processor, card issuer, or law enforcement authorities</li>
+            </ul>
+            <p>A Member who receives Credits, Rewards, or Vouchers as a result of a payment that is later reversed or found to be unauthorized has no entitlement to retain them and remains liable to SHINECODING LTD for their value. This section applies in addition to, and does not limit, SHINECODING LTD&apos;s rights under Section 3 (Eligibility and Account Responsibility).</p>
           </section>
 
         </div>

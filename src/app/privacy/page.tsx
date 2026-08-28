@@ -10,7 +10,7 @@ export default function PrivacyPage() {
           <h1 className="mb-2 text-4xl font-bold text-gray-900">PRIVACY POLICY</h1>
           <p className="text-gray-500">SHINECODING LTD</p>
           <p className="text-gray-500">12A Goldhurst Terrace, NW6 3HU, London, United Kingdom</p>
-          <p className="text-gray-500">Last Updated: April 26, 2026</p>
+          <p className="text-gray-500">Last Updated: August 19, 2026</p>
         </div>
 
         <div className="space-y-10 text-gray-600 leading-relaxed">
@@ -34,7 +34,6 @@ export default function PrivacyPage() {
               <li>Email address and username</li>
               <li>Password (encrypted and not stored in plain text)</li>
               <li>Payment information (processed by Apple, Google, or Stripe - we do not store payment card details)</li>
-              <li>Wallet address (if you use smart contract payments)</li>
               <li>Quest participation data</li>
               <li>Snaps you submit</li>
               <li>Profile information</li>
@@ -45,7 +44,9 @@ export default function PrivacyPage() {
               <li>IP address</li>
               <li>Usage data (features used, time spent in app)</li>
               <li>Device identifiers and analytics data</li>
+              <li>Time zone (your device&apos;s IANA time zone setting, e.g. &quot;Asia/Seoul&quot;)</li>
             </ul>
+            <p className="mt-3">Your time zone is detected automatically on sign-up and can be changed at any time in Settings. We use it to show quest deadlines and enforce quest time windows correctly for where you are. It only tells us your general region, not a precise location — we do not collect GPS or other precise geolocation data.</p>
           </section>
 
           <section>
@@ -79,16 +80,10 @@ export default function PrivacyPage() {
               <li>App platforms: Apple App Store, Google Play Store (for app distribution, crash reports, and app performance analytics)</li>
               <li>Cloud providers: AWS, Google Cloud (for hosting and backup)</li>
               <li>Analytics providers: Google Analytics (anonymized data only)</li>
-              <li>Merchants: If you redeem vouchers (basic transaction details only)</li>
+              <li>Merchants / voucher fulfilment partners: If you redeem Rewards for vouchers from in-app or Stripe quests (basic transaction details only).</li>
             </ul>
             <p className="mb-4">All third parties are required to protect your information and use it only for the purposes we specify.</p>
-            <h3 className="mb-2 font-semibold text-gray-800">5.1 Smart Contract Data</h3>
-            <p className="mb-2">If you use smart contract payments, your wallet address and transaction history are recorded on Polyscan. This data is:</p>
-            <ul className="ml-6 list-disc space-y-1">
-              <li>Public and permanently visible on the smart contract</li>
-              <li>Not shared by us (you provide your wallet address directly)</li>
-              <li>Not controlled by us (smart contract records cannot be deleted or modified)</li>
-            </ul>
+            <p>We do not sell your personal information, and we do not share it with any third parties other than the service providers who help us operate SnapQuest.</p>
           </section>
 
           <section>
@@ -99,7 +94,6 @@ export default function PrivacyPage() {
               <li>Your profile and personal information are deleted immediately</li>
               <li>Financial and settlement records are retained as required by law</li>
               <li>Anonymized quest participation data may be retained for analytics, service improvement, and reporting purposes</li>
-              <li>Smart contract data cannot be deleted (it is public and permanent)</li>
             </ul>
           </section>
 

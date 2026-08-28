@@ -1,17 +1,16 @@
 "use client";
 
-import React from "react";
 import Image from "next/image";
 import InfoCard from "../components/info-card";
 
 const OPTIONS = [
   {
     title: "AI-Powered",
-    description: "Personalised habit engine",
+    description: "Personalised and verified habit engine",
   },
   {
-    title: "On-Chain",
-    description: "Smart Contract securedstakes",
+    title: "Social",
+    description: "Quest groups keep you honest",
   },
   {
     title: "AR-Enabled",
