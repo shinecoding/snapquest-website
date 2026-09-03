@@ -133,7 +133,7 @@ export default function DataProtectionPage() {
 
           <section>
             <h2 className="mb-3 text-xl font-bold text-gray-900">7. INTERNATIONAL TRANSFERS</h2>
-            <p>Personal data may be transferred to and processed in countries outside the UK, including by cloud providers and payment processors. Transfers are authorized under UK GDPR Article 46 (Adequacy Decisions or Standard Contractual Clauses). By using SnapQuest, you consent to such transfers.</p>
+            <p>Your personal data is primarily processed and stored on servers located in the United Kingdom (London). It may be transferred outside the UK only through specific third-party processors, such as payment processors (Apple, Google, Stripe), where necessary to provide the Service. Any such transfers are authorized under UK GDPR Article 46 (Adequacy Decisions or Standard Contractual Clauses). By using SnapQuest, you consent to such transfers.</p>
           </section>
 
           <section>

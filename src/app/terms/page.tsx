@@ -10,7 +10,7 @@ export default function TermsPage() {
           <h1 className="mb-2 text-4xl font-bold text-gray-900">TERMS AND CONDITIONS</h1>
           <p className="text-gray-500">SHINECODING LTD</p>
           <p className="text-gray-500">12A Goldhurst Terrace, NW6 3HU, London, United Kingdom</p>
-          <p className="text-gray-500">Last Updated: July 17, 2026</p>
+          <p className="text-gray-500">Last Updated: September 2, 2026</p>
         </div>
 
         <div className="space-y-10 text-gray-600 leading-relaxed">
@@ -86,6 +86,7 @@ export default function TermsPage() {
               <li>No Credits or Rewards are transferred between Members</li>
             </ul>
             <p className="mb-3">SHINECODING LTD manages all fund transfers, refunds, service-fee forfeitures, and Company-funded Reward distributions for in-app and Stripe payments. Settlement is processed automatically through our system within 3 days of quest deadline.</p>
+            <p className="mb-4">All refunds are issued back to the original payment method used for the transaction. SHINECODING LTD does not issue refunds by cash, bank transfer, or to any payment method or account other than the one used to make the original payment.</p>
             <p className="mb-4">Settlement results are final and binding.</p>
           </section>
 

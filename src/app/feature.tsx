@@ -48,10 +48,9 @@ export function Features() {
           Why SnapQuest Works
         </h1>
         <p className="mx-auto max-w-2xl text-center text-lg leading-relaxed text-gray-500">
-          Built on behavioural psychology research and powered by AI,
-          and AR, SnapQuest is the habit system designed for people who approach
-          self-improvement the same way they approach their portfolio: with
-          strategy, accountability, and skin in the game.
+          Built on behavioural psychology research and powered by AI and AR,
+          SnapQuest is the habit system designed for people who approach
+          self-improvement with strategy, accountability, and real commitment.
         </p>
       </div>
       <div className="container mx-auto grid max-w-6xl grid-cols-1 gap-4 gap-y-12 md:grid-cols-2">
