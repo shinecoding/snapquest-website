@@ -10,7 +10,7 @@ export default function PrivacyPage() {
           <h1 className="mb-2 text-4xl font-bold text-gray-900">PRIVACY POLICY</h1>
           <p className="text-gray-500">SHINECODING LTD</p>
           <p className="text-gray-500">12A Goldhurst Terrace, NW6 3HU, London, United Kingdom</p>
-          <p className="text-gray-500">Last Updated: August 19, 2026</p>
+          <p className="text-gray-500">Last Updated: September 3, 2026</p>
         </div>
 
         <div className="space-y-10 text-gray-600 leading-relaxed">
@@ -99,7 +99,7 @@ export default function PrivacyPage() {
 
           <section>
             <h2 className="mb-3 text-xl font-bold text-gray-900">7. INTERNATIONAL TRANSFERS</h2>
-            <p>Your information may be transferred to and processed in countries outside the UK, including through cloud service providers. By using SnapQuest, you consent to such transfers.</p>
+            <p>Your information is primarily processed and stored on servers located in the United Kingdom (London). It may be transferred outside the UK only through specific third-party processors, such as payment processors (Apple, Google, Stripe), where necessary to provide the Service. By using SnapQuest, you consent to such transfers.</p>
           </section>
 
           <section>
@@ -109,7 +109,7 @@ export default function PrivacyPage() {
 
           <section>
             <h2 className="mb-3 text-xl font-bold text-gray-900">9. CHILDREN</h2>
-            <p>SnapQuest is not intended for users under 18. If we discover a minor is using SnapQuest, we will delete their account and information. If you are a parent and discover your child using SnapQuest, contact admin@snapquest.uk immediately.</p>
+            <p>SnapQuest is not intended for users under 18. You must confirm you are 18 or older when you sign up, and we will not create an account unless you do so. If we discover a minor is using SnapQuest, we will delete their account and information. If you are a parent and discover your child using SnapQuest, contact admin@snapquest.uk immediately.</p>
           </section>
 
           <section>

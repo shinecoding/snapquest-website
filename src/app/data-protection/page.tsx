@@ -10,7 +10,7 @@ export default function DataProtectionPage() {
           <h1 className="mb-2 text-4xl font-bold text-gray-900">DATA PROTECTION POLICY</h1>
           <p className="text-gray-500">SHINECODING LTD</p>
           <p className="text-gray-500">12A Goldhurst Terrace, NW6 3HU, London, United Kingdom</p>
-          <p className="text-gray-500">Last Updated: April 26, 2026</p>
+          <p className="text-gray-500">Last Updated: September 3, 2026</p>
         </div>
 
         <div className="space-y-10 text-gray-600 leading-relaxed">
