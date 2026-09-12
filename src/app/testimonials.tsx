@@ -7,21 +7,21 @@ import { UserIcon } from "@heroicons/react/24/solid";
 const TESTIMONIALS = [
   {
     feedback:
-      "I'd been trying to wake up at 5 AM for two years. The AI notifications nudged me at the right moment and got me to take the snap each morning. I didn't miss a single day for 30 days. The group kept me from making excuses.",
+      "I'd been trying to wake up at 5 AM for two years. The AI notifications nudged me at the right moment and got me to take the snap each morning. I didn't miss a single day. The group kept me from making excuses.",
     client: "Jamie L.",
     title: "Product Manager",
     img: "/image/avatar1.jpg",
   },
   {
     feedback:
-      "After two years of 80-hour weeks I hit a wall. No energy, no routine, nothing outside of work. I started a simple sleep and exercise quest just to feel human again. Three months later those habits are the reason I can still do this job.",
+      "After two years of 80-hour weeks I hit a wall. No energy, no routine, nothing outside of work. I started a simple sleep and exercise quest just to feel human again. Those habits are the reason I can still do this job.",
     client: "Ryan K.",
     title: "Investment Analyst",
     img: "/image/avatar2.jpg",
   },
   {
     feedback:
-      "I had tried every productivity app out there. None of them made me feel anything when I skipped a day. SnapQuest did, because I was financially motivated and my group could see my progress. That combination changed my behaviour in a way no app ever could.",
+      "I had tried every productivity app out there. None of them made me feel anything when I skipped a day. SnapQuest did, because I was motivated and my group could see my progress. That combination changed my behaviour in a way no app ever could.",
     client: "Priya M.",
     title: "Lawyer",
     img: "/image/avatar3.jpg",
