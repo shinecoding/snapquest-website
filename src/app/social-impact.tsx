@@ -1,6 +1,5 @@
 "use client";
 
-import React from "react";
 import { HeartIcon } from "@heroicons/react/24/solid";
 
 export function SocialImpact() {
@@ -39,25 +38,16 @@ export function SocialImpact() {
               </p>
             </div>
             <p className="leading-relaxed text-gray-500">
-              With most UK desk workers regularly working overtime, the hours
-              outside the office are often the hardest to reclaim — there is
-              always another email, another errand, another reason to skip
-              the time that is supposed to be yours. SnapQuest gives busy,
-              exhausted people a lightweight way to carve out and protect
-              that time, turning small mindfulness practices into a daily
-              habit backed by real accountability rather than willpower
-              alone. SnapQuest is designed to support presence, recovery,
-              and personal wellbeing beyond the workday.
-            </p>
+              With most UK desk workers regularly working overtime, the hours outside the office are often the hardest to reclaim. SnapQuest gives busy, exhausted people an enjoyable and rewarding way to make time for mindfulness, turning small practices into daily habits backed by real accountability rather than willpower alone. SnapQuest is designed to support presence, recovery, and personal wellbeing beyond the workday.            </p>
           </div>
 
           {/* Sustainability */}
           <div>
             <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-gray-900 text-white">
               <svg className="h-6 w-6" viewBox="0 0 24 24" fill="currentColor">
-                <rect x="11" y="14" width="3" height="8" rx="1"/>
-                <path d="M11 14C13 14 11 5 0 3C1 10 5 15 13 14Z"/>
-                <path d="M12 14C12 14 11 5 24 3C23 10 19 14 12 14Z"/>
+                <rect x="11" y="14" width="3" height="8" rx="1" />
+                <path d="M11 14C13 14 11 5 0 3C1 10 5 15 13 14Z" />
+                <path d="M12 14C12 14 11 5 24 3C23 10 19 14 12 14Z" />
               </svg>
             </div>
             <h3 className="mb-6 text-2xl font-bold text-gray-900">
