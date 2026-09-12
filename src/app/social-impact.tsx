@@ -31,14 +31,14 @@ export function SocialImpact() {
               Mindfulness
             </h3>
             <div className="mb-6 rounded-xl bg-indigo-50 p-6">
-              <p className="text-5xl font-black text-indigo-600">84%</p>
+              <p className="text-5xl font-black text-indigo-600">964K</p>
               <p className="mt-1 text-sm font-medium text-indigo-400">
-                UK desk workers who regularly work overtime, Resource Guru
-                2025
+                UK Health and Safety Executive (HSE) 2024/25
               </p>
             </div>
             <p className="leading-relaxed text-gray-500">
-              With most UK desk workers regularly working overtime, the hours outside the office are often the hardest to reclaim. SnapQuest gives busy, exhausted people an enjoyable and rewarding way to make time for mindfulness, turning small practices into daily habits backed by real accountability rather than willpower alone. SnapQuest is designed to support presence, recovery, and personal wellbeing beyond the workday.            </p>
+              According to the UK Health and Safety Executive (HSE), 964,000 workers experienced work-related stress, depression or anxiety in 2024/25, resulting in 22.1 million working days lost. SnapQuest helps busy professionals address this growing wellbeing challenge through simple, engaging mindfulness practices that can become sustainable daily habits. SnapQuest is designed to support presence, recovery, and personal wellbeing beyond the workday.
+            </p>
           </div>
 
           {/* Sustainability */}
