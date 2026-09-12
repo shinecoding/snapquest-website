@@ -23,22 +23,31 @@ export function SocialImpact() {
         </div>
 
         <div className="grid grid-cols-1 gap-20 lg:grid-cols-2">
-          {/* Habits & Accountability */}
+          {/* Mindfulness */}
           <div>
             <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-gray-900 text-white">
               <HeartIcon className="h-6 w-6" />
             </div>
             <h3 className="mb-6 text-2xl font-bold text-gray-900">
-              Habits & Accountability
+              Mindfulness
             </h3>
+            <div className="mb-6 rounded-xl bg-indigo-50 p-6">
+              <p className="text-5xl font-black text-indigo-600">84%</p>
+              <p className="mt-1 text-sm font-medium text-indigo-400">
+                UK desk workers who regularly work overtime, Resource Guru
+                2025
+              </p>
+            </div>
             <p className="leading-relaxed text-gray-500">
-              Staying consistent with everyday habits — moving more, following
-              a routine, showing up for yourself — is hard to sustain alone.
-              SnapQuest gives people a lightweight way to commit to small,
-              repeatable actions and see them through, day after day, backed
-              by real accountability rather than willpower alone. SnapQuest is
-              designed to support motivation, routine-building, and personal
-              accountability.
+              With most UK desk workers regularly working overtime, the hours
+              outside the office are often the hardest to reclaim — there is
+              always another email, another errand, another reason to skip
+              the time that is supposed to be yours. SnapQuest gives busy,
+              exhausted people a lightweight way to carve out and protect
+              that time, turning small mindfulness practices into a daily
+              habit backed by real accountability rather than willpower
+              alone. SnapQuest is designed to support presence, recovery,
+              and personal wellbeing beyond the workday.
             </p>
           </div>
 

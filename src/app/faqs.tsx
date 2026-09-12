@@ -37,7 +37,7 @@ export function Faqs() {
             Frequently asked questions
           </h1>
           <p className="mx-auto mb-24 max-w-2xl text-center text-lg leading-relaxed text-gray-500">
-            Everything you need to know about quests, Rewards, and vouchers.
+            Everything you need to know about getting started.
           </p>
         </div>
 
