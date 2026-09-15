@@ -9,7 +9,7 @@ export default function TermsPage() {
         <div className="mb-12">
           <h1 className="mb-2 text-4xl font-bold text-gray-900">TERMS AND CONDITIONS</h1>
           <p className="text-gray-500">SHINECODING LTD</p>
-          <p className="text-gray-500">12A Goldhurst Terrace, NW6 3HU, London, United Kingdom</p>
+          <p className="text-gray-500">Siu Office, 4-6 Greatorex Street, London, England, E1 5NF</p>
           <p className="text-gray-500">Last Updated: September 3, 2026</p>
         </div>
 

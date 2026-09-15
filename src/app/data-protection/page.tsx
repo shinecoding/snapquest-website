@@ -9,7 +9,7 @@ export default function DataProtectionPage() {
         <div className="mb-12">
           <h1 className="mb-2 text-4xl font-bold text-gray-900">DATA PROTECTION POLICY</h1>
           <p className="text-gray-500">SHINECODING LTD</p>
-          <p className="text-gray-500">12A Goldhurst Terrace, NW6 3HU, London, United Kingdom</p>
+          <p className="text-gray-500">Siu Office, 4-6 Greatorex Street, London, England, E1 5NF</p>
           <p className="text-gray-500">Last Updated: September 3, 2026</p>
         </div>
 
@@ -181,7 +181,7 @@ export default function DataProtectionPage() {
             <h2 className="mb-3 text-xl font-bold text-gray-900">12. CONTACT</h2>
             <p className="mb-2">For data subject requests or policy questions:</p>
             <p className="mb-1">Email: admin@snapquest.uk</p>
-            <p className="mb-4">Address: SHINECODING LTD, 12A Goldhurst Terrace, NW6 3HU, London, United Kingdom</p>
+            <p className="mb-4">Address: SHINECODING LTD, Siu Office, 4-6 Greatorex Street, London, England, E1 5NF</p>
             <p className="mb-1">Complaints may be lodged with the Information Commissioner&apos;s Office (ICO):</p>
             <p>Website: <a href="https://ico.org.uk" target="_blank" rel="noopener noreferrer" className="text-indigo-600 hover:underline">https://ico.org.uk</a></p>
           </section>
